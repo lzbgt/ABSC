@@ -147,7 +147,7 @@ def load_inputs_twitter(input_file, word_id_file, sentence_len, type_='', is_r=T
             else:
                 if word in word_to_id:
                     words_r.append(word_to_id[word])
-        if type_ == 'TD' or type_ == 'TC': m ,
+        if type_ == 'TD' or type_ == 'TC':
             # words_l.extend(target_word)
             words_l = words_l[:sentence_len]
             words_r = words_r[:sentence_len]
